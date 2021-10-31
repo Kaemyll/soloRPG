@@ -18,11 +18,10 @@ iframe {
 
 /* TABLE DU DESTIN*/
 table {
-	border: 1em inset darkred;
+	border: 0.5em inset darkred;
 }
 
 .tableTitle {
-	font-size: 1.5em;
 	font-weight: 700;
 	background-color: darkred;
 	color: white;
@@ -60,8 +59,8 @@ button:active {
 }
 
 .result {
-	height: 1em;
-	width: 10em;
+	height: 6em;
+	width: 25em;
 	padding: 1em;
 	margin: 0.5em 0 0.5em 0;
 	border: 1px solid darkred;
