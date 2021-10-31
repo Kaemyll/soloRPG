@@ -12,26 +12,21 @@
        <article>
            <p>Cette table est à utiliser à chaque fois que vous vous poserez une question pour résoudre une situation.</p>
            <table>
-               <thead>
-                   <tr>
-                       <th colspan="3">Table du Destin</th>
-                   </tr>
-               </thead>
                <tbody>
-                   <tr class="bold">
-                       <td>1d6</td>
-                       <td colspan="2">Résultat</td>
-                   </tr>
-                   <tr>
+                    <tr class="tableTitle">
+                        <td colspan="1">1d6</td>
+                        <td colspan="2">Résultat</td>
+                    </tr>
+                    <tr>
                        <td>1</td>
                        <td>"Non, et..."</td>
                        <td class="annotation">Pas seulement non, mais complication à suivre</td>
-                   </tr>
-                   <tr>
+                    </tr>
+                    <tr>
                        <td>2-3</td>
                        <td>"Non, mais...</td>
                        <td class="annotation">Non, mais solution alternative proposée</td>
-                   </tr>
+                    </tr>
                    <tr>
                        <td>4-5</td>
                        <td>"Oui, mais..."</td>
@@ -48,7 +43,7 @@
        <article>
            <p>Ce bouton vous permet de générer un résultat :</p>
            <button id="destiny">Jet de Destin</button>
-           <div id="diceResult">Résultat...</div>
+           <div id="diceResult" class="result">Résultat...</div>
            <p>Ainsi roulent les dés de la destinée...</p>
        </article>
    </main> 
