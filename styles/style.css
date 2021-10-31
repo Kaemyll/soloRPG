@@ -1,0 +1,56 @@
+table {
+	border: 1em inset darkred;
+}
+
+th {
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: center;
+}
+
+td {
+	border: 0.1em solid darkred;
+	text-align: center;
+}
+
+.annotation {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: 700;
+	background-color: darkred;
+	color: white;
+}
+
+button {
+	border: 0;
+	line-height: 2.5;
+	padding: 0 1em;
+	font-size: 1rem;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	border-radius: 1em;
+	background-color: darkred;
+	background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+button:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+
+button:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#diceResult {
+	height: 1em;
+	width: 10em;
+	padding: 1em;
+	margin: 0.5em 0 0.5em 0;
+	border: 1px solid darkred;
+	border-radius: 1em;
+	font-size: 1em;
+}

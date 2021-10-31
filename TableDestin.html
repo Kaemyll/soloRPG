@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table du Destin</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script async src="app.js"></script>
+</head>
+<body>
+    <head>
+        <a href="index.html">Retourner à l'Accueil</a>
+    </head>
+   <main>
+       <article>
+           <p>Cette table est à utiliser à chaque fois que vous vous poserez une question pour résoudre une situation.</p>
+           <table>
+               <thead>
+                   <tr>
+                       <th colspan="3">Table du Destin</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr class="bold">
+                       <td>1d6</td>
+                       <td colspan="2">Résultat</td>
+                   </tr>
+                   <tr>
+                       <td>1</td>
+                       <td>"Non, et..."</td>
+                       <td class="annotation">Pas seulement non, mais complication à suivre</td>
+                   </tr>
+                   <tr>
+                       <td>2-3</td>
+                       <td>"Non, mais...</td>
+                       <td class="annotation">Non, mais solution alternative proposée</td>
+                   </tr>
+                   <tr>
+                       <td>4-5</td>
+                       <td>"Oui, mais..."</td>
+                       <td class="annotation">Oui, mais action nécessaire ou réponse atténuée</td>
+                   </tr>
+                   <tr>
+                       <td>6</td>
+                       <td>"Oui, et..."</td>
+                       <td class="annotation">Oui, et une bonification suit</td>
+                   </tr>
+               </tbody>
+           </table>
+       </article>
+       <article>
+           <p>Ce bouton vous permet de générer un résultat :</p>
+           <button id="destiny">Jet de Destin</button>
+           <div id="diceResult">Résultat...</div>
+           <p>Ainsi roulent les dés de la destinée...</p>
+       </article>
+   </main> 
+</body>
+</html>
