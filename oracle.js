@@ -11,13 +11,15 @@ window.addEventListener('load', () => {
 	var buttonCard = document.getElementById('oracle');
 	console.log('buttonCard est défini = ', buttonCard); // TEST
 
+	let elem = document.createElement('img');
+
 	function printCard(cardValue, cardType, resultText, upside, reverse, urlImage) {
 		var numCard = document.getElementById('numCard');
 		var arcaneType = document.getElementById('arcaneType');
 		var cardTitle = document.getElementById('cardTitle');
 		var up = document.getElementById('upside');
 		var rev = document.getElementById('reverse');
-		let elem = document.createElement('img');
+
 		elem.setAttribute('src', urlImage);
 		console.log(elem);
 		numCard.innerHTML = `Carte n° ${cardValue}`;
@@ -113,7 +115,7 @@ window.addEventListener('load', () => {
 				var resultText = "L'ERMITE";
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/9_Ermite.png';
 				break;
 			case 11:
 				var cardValue = 10;
@@ -161,7 +163,7 @@ window.addEventListener('load', () => {
 				var resultText = 'LE DIABLE';
 				var upside = "La Tentation - L'Esclavage - La Souffrance";
 				var reverse = 'La Délivrance - - ';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/15_LeDiable.png';
 				break;
 			case 17:
 				var cardValue = 16;
@@ -273,7 +275,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Huit de Bâtons';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/29_HuitDeBatons.png';
 				break;
 			case 31:
 				var cardValue = 30;
@@ -345,7 +347,7 @@ window.addEventListener('load', () => {
 				var resultText = "Le Trois d'Epées";
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/38_TroisEpees.png';
 				break;
 			case 40:
 				var cardValue = 39;
@@ -393,7 +395,7 @@ window.addEventListener('load', () => {
 				var resultText = "Le Neuf d'Epées";
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/9_NeufEpees.png';
 				break;
 			case 46:
 				var cardValue = 45;
@@ -417,7 +419,7 @@ window.addEventListener('load', () => {
 				var resultText = "Le Chevalier d'Epées";
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/47_ChevalierEpees.png';
 				break;
 			case 49:
 				var cardValue = 48;
@@ -441,7 +443,7 @@ window.addEventListener('load', () => {
 				var resultText = "L'As de Coupes";
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/50_AsDeCoupes.png';
 				break;
 			case 52:
 				var cardValue = 51;
@@ -465,7 +467,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Trois de Coupes';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/52_TroisDeCoupes.png';
 				break;
 			case 54:
 				var cardValue = 53;
@@ -545,7 +547,7 @@ window.addEventListener('load', () => {
 				var resultText = 'La Reine de Coupes';
 				var upside = 'Rêve - Création - Arts';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/62_ReineCoupes.png';
 				break;
 			case 64:
 				var cardValue = 63;
@@ -617,6 +619,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Huit de Pentacles';
 				var upside = 'symboles';
 				var reverse = 'symboles';
+				var urlImage = './assets/0_Anthropos.png';
 				break;
 			case 73:
 				var cardValue = 72;

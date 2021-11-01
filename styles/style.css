@@ -60,10 +60,26 @@ button:active {
 
 .result {
 	height: 6em;
-	width: 30em;
+	width: 25em;
 	padding: 1em;
 	margin: 0.5em 0 0.5em 0;
 	border: 1px solid darkred;
 	border-radius: 1em;
 	font-size: 1em;
+}
+
+.tarotContainer {
+	display: flex;
+}
+
+.itemFrame {
+	width: 50%;
+	margin: auto;
+}
+
+img {
+	margin-left: 1em;
+	padding: 0 0 0 5em;
+	width: 192px;
+	height: 288px;
 }
