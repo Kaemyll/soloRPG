@@ -299,7 +299,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Valet de Bâtons';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/32_ValetDeBatons.png';
 				break;
 			case 34:
 				var cardValue = 33;
@@ -307,7 +307,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Chevalier de Bâtons';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/33_ChevalierDeBatons.png';
 				break;
 			case 35:
 				var cardValue = 34;
@@ -315,7 +315,7 @@ window.addEventListener('load', () => {
 				var resultText = 'La Reine de Bâtons';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/34_ReineDeBatons.png';
 				break;
 			case 36:
 				var cardValue = 35;
@@ -323,7 +323,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Roi de Bâtons';
 				var upside = 'Passion - - ';
 				var reverse = 'Peur - - ';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/35_RoiDeBatons.png';
 				break;
 			case 37:
 				var cardValue = 36;
@@ -411,7 +411,7 @@ window.addEventListener('load', () => {
 				var resultText = "Le Valet d'Epées";
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/46_ValetEpees.png';
 				break;
 			case 48:
 				var cardValue = 47;
@@ -427,7 +427,7 @@ window.addEventListener('load', () => {
 				var resultText = "La Reine d'Epées";
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/48_ReineEpees.png';
 				break;
 			case 50:
 				var cardValue = 49;
@@ -459,7 +459,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Deux de Coupes';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/52_TroisDeCoupes.png';
 				break;
 			case 53:
 				var cardValue = 52;
@@ -531,7 +531,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Valet de Coupes';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/60_ValetDeCoupes.png';
 				break;
 			case 62:
 				var cardValue = 61;
@@ -539,7 +539,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Chevalier de Coupes';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/61_ChevalierDeCoupes.png';
 				break;
 			case 63:
 				var cardValue = 62;
@@ -555,7 +555,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Roi de Coupes';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/63_RoiDeCoupes.png';
 				break;
 			case 65:
 				var cardValue = 64;
@@ -571,7 +571,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Deux de Pentacles';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/65_DeuxDePentacle.png';
 				break;
 			case 67:
 				var cardValue = 66;
@@ -634,7 +634,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Dix de Pentacles';
 				var upside = 'Industrie - Fortune - ';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/73_DixDePentacle.png';
 				break;
 			case 75:
 				var cardValue = 74;
@@ -642,7 +642,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Valet de Pentacles';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/74_ValetDePentacle.png';
 				break;
 			case 76:
 				var cardValue = 75;
@@ -650,7 +650,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Chevalier de Pentacles';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/75_ChevalierDePentacle.png';
 				break;
 			case 77:
 				var cardValue = 76;
@@ -658,7 +658,7 @@ window.addEventListener('load', () => {
 				var resultText = 'La Reine de Pentacles';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/76_ReineDePentacle.png';
 				break;
 			case 78:
 				var cardValue = 77;
@@ -666,7 +666,7 @@ window.addEventListener('load', () => {
 				var resultText = 'Le Roi de Pentacles';
 				var upside = 'symboles';
 				var reverse = 'symboles';
-				var urlImage = './assets/0_Anthropos.png';
+				var urlImage = './assets/77_RoiDePentacle.png';
 				break;
 			default:
 				var cardValue = 'Valeur de la carte';
